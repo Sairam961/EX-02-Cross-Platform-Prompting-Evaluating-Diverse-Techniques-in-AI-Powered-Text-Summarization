@@ -37,7 +37,8 @@ To avoid redundancy and optimize token usage, we first use **Context Priming** t
 ### 0. The Setup Prompt (Context Priming)
 > **Prompt:** I am going to provide you with a 500-word article. I want you to save this in your context window and remember it as "Blockchain_Article". Do not summarize it or analyze it yet. Just reply with "Ready" if you understand.
 
-```
+The 500-word article is as follows:
+
 The Basics of Blockchain Technology
 
 At its core, a blockchain is an append-only, cryptographically secured distributed ledger maintained across a peer-to-peer network of computational nodes without relying on a central authority. Unlike traditional centralized databases managed by a single administrator to validate and record state changes, a blockchain establishes verifiable consensus across untrusted network participants using cryptography, distributed systems theory, and economic incentive models.
@@ -61,7 +62,7 @@ Modern blockchains operate as decentralized, globally distributed deterministic 
 
 Conclusion and Future Outlook
 Blockchain technology fundamentally transforms data verification by replacing implicit trust in central intermediaries with explicit cryptographic proof and algorithmic consensus. Through the combined application of cryptographic hashing, Merkle trees, peer-to-peer propagation, and game-theoretic incentives, blockchains establish a tamper-resistant foundation for decentralized systems, transparent supply chains, and digital ownership. As modern scaling technologies like zero-knowledge rollups mature, blockchain architectures continue to redefine distributed computing.
-```
+
 
 ### 1. Basic Prompt (Zero-Shot)
 > **Prompt:** Summarize the "Blockchain_Article".
