@@ -81,9 +81,12 @@ Blockchain technology fundamentally transforms data verification by replacing im
 * **What it does:** This forces the AI to be concise. It strips away all filler words and non-essential background information, ensuring the student can read it quickly without getting overwhelmed.
 
 ### 5. Final Upgraded Prompt (Output Format)
-> **Prompt:** Act as an expert content curator for an educational platform. We provide quick summaries of technical research papers to undergraduate students. Summarize the "Blockchain_Article". 
-> **Constraints:** Keep the total length under 150 words, ensure high accuracy, and simplify the concepts so a college freshman can understand them. 
+> **Prompt:** Act as an expert content curator for an educational platform. We provide quick summaries of technical research papers to undergraduate students. Summarize the "Blockchain_Article".
+
+> **Constraints:** Keep the total length under 150 words, ensure high accuracy, and simplify the concepts so a college freshman can understand them.
+
 > **Format:** Output the summary using exactly 3 bullet points with a bold heading for each point.
+
 * **What it does:** This creates the ultimate, ready-to-publish output. It combines the simplified tone for undergraduates, the strict length constraint for quick reading, and a highly scannable bulleted format.
   
 
